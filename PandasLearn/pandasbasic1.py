@@ -26,7 +26,6 @@ print(f"判断某个索引是否在Series中，Hyean是不是Series的索引：{
 
 # 数据类型DataFrame--- 多个Series的集合
 # 读入数据
-pd.read
 df = pd.read_excel('GDP.xlsx')
 print(type(df), '\n', df)
 # 获取指定行/列数据
